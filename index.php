@@ -63,13 +63,19 @@
 								<div class="panel panel-default">
 									<div class="panel-body" id="formulario"> <!-- INICIA PANEL-->
 										<div></div>
-										<form action="" method="POST" role="form"> <!-- INCIA FORM -->
+										<form action="procesar.php" method="POST" role="form"> <!-- INCIA FORM -->
 											<legend><h1>Programa 2</h1></legend>  
 											<fieldset> <!-- INCIA CAMPO CUADERNOS -->
 												<div class="panel panel-default"> <!-- INCIA CAMPO CUADERNOS PANEL -->
 													<div class="panel-body">
 														<LABEl>Cuadernos</LABEl>
-														<input type="number" name="" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
+														<br>
+														<br>
+														Libreta 1 materia 
+														<input type="number" name="lib1" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
+														<br>
+														Libreta 5 materias 
+														<input type="number" name="lib5" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
 													</div> 
 												</div><!-- TERMINA CAMPO CUADERNOS PANEL -->
 											</fieldset> <!-- TERMINA CAMPO CUADERNOS -->
@@ -77,8 +83,14 @@
 											<fieldset> <!-- INCIA CAMPO Bolígrafos  -->
 												<div class="panel panel-default"> <!-- INCIA CAMPO Bolígrafos PANEL -->
 													<div class="panel-body">
-														<LABEl>Bolígrafos </LABEl>
-														<input type="number" name="" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
+														<LABEl>Bolígrafos</LABEl>
+														<br>
+														<br>
+														Paquete Bolígrafo azul 
+														<input type="number" name="boliAzul" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
+														<br>
+														Bolígrafo Neon  
+														<input type="number" name="boliNeon" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
 													</div> 
 												</div><!-- TERMINA CAMPO Bolígrafos PANEL -->
 											</fieldset> <!-- TERMINA CAMPO Bolígrafos -->
@@ -87,7 +99,16 @@
 												<div class="panel panel-default"> <!-- INCIA CAMPO Accesorios PANEL -->
 													<div class="panel-body">
 														<LABEl>Accesorios </LABEl>
-														<input type="number" name="" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
+														<br>
+														<br>
+														Regla 30 cm 
+														<input type="number" name="regla" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
+														<br>
+														Borrador
+														<input type="number" name="borrador" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
+														<br>
+														Sacapuntas
+														<input type="number" name="sacPuntas" id="input" class="form-control" value="0" min="0" max="" step="" required="required" title="">
 													</div> 
 												</div><!-- TERMINA CAMPO Accesorios PANEL -->
 											</fieldset> <!-- TERMINA CAMPO Accesorios -->
@@ -105,13 +126,13 @@
 								<div> <!-- INICIA OUTPUT -->
 									<div class="panel panel-default">
 										<div class="panel-body" id="panel-output">
+											<legend><H1>Total</H1></legend>
 											aqui ira el resultado del calculo :v
 										</div>
 									</div>
 								</div> <!-- TERMINA OUTPUT -->
 							</div>
 							<!-- FIN: Columna 2 -->
-
 						</div>
 						<!-- FIN: Fila -->
 
